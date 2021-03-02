@@ -1,0 +1,16 @@
+.externalToolBuilders
+.idea
+.project
+.settings
+.tmp
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary build artifacts
+/docs/examples/live-example/build
+
+# Note: /dist/Autolinker.js and /dist/Autolinker.min.js are not gitignored to
+# allow for Bower
+/dist/commonjs
+/dist/es2015
