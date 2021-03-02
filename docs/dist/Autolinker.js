@@ -1232,7 +1232,7 @@
                 case 'soundcloud':
                     return 'https://soundcloud.com/' + this.mention;
                 case 'userMention':
-                    return 'https://soundcloud.com/' + this.mention;
+                    return this.mention;
                 default: // Shouldn't happen because Autolinker's constructor should block any invalid values, but just in case.
                     throw new Error('Unknown service name to point mention to: ' + this.serviceName);
             }
